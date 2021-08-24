@@ -1,0 +1,10 @@
+# Dependency directories
+node-modules/
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/
+
+# dotenv environment variables file
+.env
+.env.docker
+

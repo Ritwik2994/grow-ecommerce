@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc && tsc-alias",
-    "dev": "nodemon --config nodemon.json src/index.ts"
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "prettier": "prettier --config ./.prettierrc --write src/**/*.ts"
   },
   "keywords": [],
   "author": "Ritwik Rohitashwa",
